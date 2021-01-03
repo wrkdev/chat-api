@@ -1,0 +1,29 @@
+{
+  "name": "chat-api",
+  "version": "0.1.0",
+  "description": "API to manage all calls to the database from the chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "MongoDB",
+    "mongoose",
+    "Docker"
+  ],
+  "author": "James Orrey",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
